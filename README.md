@@ -8,4 +8,4 @@
 ## Nội dung
 - Bài tập
 - Thực hành
-- Tài liệu môn CSE391
+- Tài liệu môn CSE391 _ Nền tảng phát triển Wed
