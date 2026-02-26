@@ -1,0 +1,75 @@
+body {
+    border: 3px solid black;
+    margin: 10px;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.wrapper {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* FORM */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* ROW FLEX */
+.row {
+    display: flex;
+    gap: 20px;
+}
+
+/* 2 input đầu mỗi cái chiếm 50% */
+.row input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+/* Subject full width */
+.row input[type="text"]:only-child {
+    width: 100%;
+}
+
+/* Textarea */
+textarea {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    resize: none;
+    font-size: 14px;
+}
+
+/* Bottom row */
+.bottom {
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Button */
+button {
+    background-color: #5aaed6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4a9bc1;
+}
+
+.bottom span {
+    font-size: 13px;
+    color: gray;
+}
