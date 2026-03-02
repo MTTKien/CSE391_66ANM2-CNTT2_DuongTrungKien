@@ -1,0 +1,62 @@
+/* Bước 1: Reset box-sizing cho toàn trang */
+* {
+    box-sizing: border-box;
+}
+
+/* Cải tiến nav bằng Flexbox */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: #f8f9fa;
+    padding: 15px;
+}
+
+/* Bước 2: Style cho .posts container */
+/* Cải tiến .posts bằng Flexbox */
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+/* Bước 3: Style cho .card */
+/* Card */
+.card {
+    flex: 0 0 calc(33.33% - 20px);
+    /* Hoặc responsive linh hoạt hơn:
+       flex: 1 1 300px;
+    */
+}
+
+
+/* Bước 4: Style cho .btn */
+.btn {
+    
+       display: inline-block;
+       padding: 8px 16px;
+       background: #007bff;
+       color: white;
+       text-decoration: none;
+       border-radius: 4px;
+   
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+/* Responsive: Khi màn hình < 768px */
+@media (max-width: 768px) {
+    .posts {
+        flex-direction: column;
+    }
+
+    .card {
+        flex: 1 1 100%;
+    }
+}
