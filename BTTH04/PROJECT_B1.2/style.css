@@ -1,0 +1,35 @@
+body{
+font-family:Arial;
+width:800px;
+margin:40px auto;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:20px;
+}
+
+th,td{
+border:1px solid #ccc;
+padding:8px;
+text-align:center;
+}
+
+.low-score{
+background:yellow;
+}
+
+.sortable{
+cursor:pointer;
+}
+
+#stats{
+margin-top:15px;
+font-weight:bold;
+}
+
+.no-result{
+text-align:center;
+color:red;
+}

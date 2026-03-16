@@ -1,0 +1,36 @@
+body{
+    font-family: Arial;
+    width:700px;
+    margin:40px auto;
+}
+
+input{
+    padding:6px;
+    margin-right:10px;
+}
+
+button{
+    padding:6px 10px;
+    cursor:pointer;
+}
+
+table{
+    width:100%;
+    border-collapse: collapse;
+    margin-top:20px;
+}
+
+th,td{
+    border:1px solid #ccc;
+    padding:8px;
+    text-align:center;
+}
+
+.low-score{
+    background:yellow;
+}
+
+.stats{
+    margin-top:15px;
+    font-weight:bold;
+}

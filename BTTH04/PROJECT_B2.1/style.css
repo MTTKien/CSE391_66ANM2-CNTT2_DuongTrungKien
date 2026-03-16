@@ -1,0 +1,31 @@
+body{
+font-family:Arial;
+width:400px;
+margin:40px auto;
+}
+
+form div{
+margin-bottom:12px;
+}
+
+input{
+width:100%;
+padding:6px;
+}
+
+button{
+padding:8px 12px;
+cursor:pointer;
+}
+
+.error{
+color:red;
+font-size:13px;
+display:block;
+}
+
+#successMessage{
+font-size:20px;
+color:green;
+margin-top:20px;
+}
